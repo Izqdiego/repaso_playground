@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entregables</title>
-</head>
-<body>
-    ESTA ES LA VISTA DE ENTREGABLES
-</body>
-</html>
+{% extends "AppRepaso/padre.html" %}
+
+{% load static %}
+
+{% block titulo %}
+<h1 class="mb-5">ESTA ES LA PAGINA DE ENTREGABLES</h1>                           
+{% endblock %}
+
+{% block contenido_que_cambia %}
+    <h2>ESTE ES EL CONTENIDO QUE CAMBIO!</h2>
+{% endblock %}
