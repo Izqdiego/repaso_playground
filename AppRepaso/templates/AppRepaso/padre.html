@@ -23,8 +23,9 @@
                 <a class="navbar-brand" href="{% url 'inicio' %}">INICIO</a>
                 <a class="btn btn-danger" href="{% url 'profesores' %}">PROFESORES</a>
                 <a class="btn btn-dark" href="{% url 'entregables' %}">ENTREGABLES</a>
-                <a class="btn btn-warning" href="{% url 'cursos' %}">CURSOS</a>
+                <a class="btn btn-warning" href="{% url 'curso' %}">CURSO</a>
                 <a class="btn btn-success" href="{% url 'estudiantes' %}">ESTUDIANTES</a>
+                <a class="btn btn-success" href="{% url 'formularioProfe' %}">FORMULARIO PROFE</a>
 
             </div>
         </nav>
@@ -94,7 +95,8 @@
                     </div>
                 </div>
                 <div class="row g-0">
-                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('{% static "AppRepaso/assets/img/bg-showcase-2.jpg" %}')"></div>
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('{% static
+                        "AppRepaso/assets/img/bg-showcase-2.jpg" %}')"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Fully Responsive Design</h2>
                         <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
